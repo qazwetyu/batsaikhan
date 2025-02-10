@@ -1,0 +1,163 @@
+Date : 2023-07-19 05:42:57
+Directory : /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs
+Total : 114 files,  30417 codes, 264 comments, 1678 blanks, all 32359 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| XML                |          7 |      9,628 |          0 |          6 |      9,634 |
+| CSS                |         11 |      8,643 |        222 |      1,283 |     10,148 |
+| JavaScript         |         88 |      7,026 |         38 |        382 |      7,446 |
+| JSON               |          5 |      5,022 |          0 |          1 |      5,023 |
+| SCSS               |          1 |         93 |          0 |          5 |         98 |
+| JSON with Comments |          1 |          4 |          4 |          0 |          8 |
+| Markdown           |          1 |          1 |          0 |          1 |          2 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                    |        114 |     30,417 |        264 |      1,678 |     32,359 |
+| . (Files)                                                                                                            |          5 |      4,817 |          5 |          4 |      4,826 |
+| components                                                                                                           |         59 |      3,739 |         22 |        236 |      3,997 |
+| components/elements                                                                                                  |          8 |        267 |          4 |         37 |        308 |
+| components/filter                                                                                                    |          1 |         33 |          0 |          2 |         35 |
+| components/layout                                                                                                    |         17 |      1,209 |         14 |         87 |      1,310 |
+| components/sections                                                                                                  |         33 |      2,230 |          4 |        110 |      2,344 |
+| pages                                                                                                                |         28 |      3,283 |         15 |        144 |      3,442 |
+| pages (Files)                                                                                                        |         25 |      2,471 |          6 |        100 |      2,577 |
+| pages/blog                                                                                                           |          1 |        280 |          0 |         11 |        291 |
+| pages/project                                                                                                        |          1 |        355 |          9 |         19 |        383 |
+| pages/team                                                                                                           |          1 |        177 |          0 |         14 |        191 |
+| public                                                                                                               |         19 |     18,364 |        222 |      1,294 |     19,880 |
+| public (Files)                                                                                                       |          1 |          4 |          0 |          0 |          4 |
+| public/assets                                                                                                        |         18 |     18,360 |        222 |      1,294 |     19,876 |
+| public/assets/css                                                                                                    |         11 |      8,643 |        222 |      1,283 |     10,148 |
+| public/assets/fonts                                                                                                  |          5 |      9,711 |          0 |          9 |      9,720 |
+| public/assets/img                                                                                                    |          2 |          6 |          0 |          2 |          8 |
+| public/assets/img/banner                                                                                             |          2 |          6 |          0 |          2 |          8 |
+| util                                                                                                                 |          3 |        214 |          0 |          0 |        214 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                             | language           | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/README.md                                 | Markdown           |          1 |          0 |          1 |          2 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/elements/BackToTop.js          | JavaScript         |         26 |          0 |          4 |         30 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/elements/BlogItem.js           | JavaScript         |         23 |          0 |          2 |         25 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/elements/CounterUp.js          | JavaScript         |         17 |          0 |          1 |         18 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/elements/Preloader.js          | JavaScript         |         16 |          0 |          2 |         18 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/elements/ProjectFilter.js      | JavaScript         |        133 |          4 |         22 |        159 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/elements/ProjectItem.js        | JavaScript         |         22 |          0 |          1 |         23 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/elements/TeamItem.js           | JavaScript         |         18 |          0 |          2 |         20 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/elements/ViodePopup.js         | JavaScript         |         12 |          0 |          3 |         15 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/filter/Pagination.js           | JavaScript         |         33 |          0 |          2 |         35 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Breadcrumb.js           | JavaScript         |         24 |          0 |          3 |         27 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Footer.js               | JavaScript         |         78 |          0 |          3 |         81 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Header1.js              | JavaScript         |        133 |          0 |          3 |        136 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Header2.js              | JavaScript         |         54 |          0 |          4 |         58 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Header3.js              | JavaScript         |         98 |          0 |          2 |        100 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Header4.js              | JavaScript         |         47 |          0 |          6 |         53 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Header5.js              | JavaScript         |         72 |          0 |          3 |         75 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Header6.js              | JavaScript         |         66 |          0 |          3 |         69 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Header7.js              | JavaScript         |        122 |          0 |          3 |        125 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Header8.js              | JavaScript         |         49 |          0 |          4 |         53 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Layout.js               | JavaScript         |         56 |          2 |          7 |         65 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Menu.js                 | JavaScript         |        116 |         12 |          5 |        133 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/MobileMenu.js           | JavaScript         |         76 |          0 |          7 |         83 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/PageHead.js             | JavaScript         |         11 |          0 |          3 |         14 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Sidebar.js              | JavaScript         |         98 |          0 |         13 |        111 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/Sidebar2.js             | JavaScript         |         31 |          0 |          3 |         34 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/layout/VerticalMenu.js         | JavaScript         |         78 |          0 |         15 |         93 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/About.js              | JavaScript         |         39 |          0 |          2 |         41 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Banner1.js            | JavaScript         |         35 |          0 |          3 |         38 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Banner2.js            | JavaScript         |         40 |          0 |          3 |         43 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Banner3.js            | JavaScript         |         34 |          0 |          3 |         37 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Banner4.js            | JavaScript         |         33 |          0 |          3 |         36 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Banner5.js            | JavaScript         |         42 |          0 |          3 |         45 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Banner6.js            | JavaScript         |         28 |          0 |          3 |         31 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Banner7.js            | JavaScript         |        214 |          0 |          5 |        219 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Blog.js               | JavaScript         |         97 |          0 |          3 |        100 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Blog2.js              | JavaScript         |         81 |          0 |          3 |         84 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Blog3.js              | JavaScript         |         81 |          0 |          3 |         84 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Brand.js              | JavaScript         |         71 |          0 |         11 |         82 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Counter.js            | JavaScript         |         46 |          0 |          3 |         49 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Features.js           | JavaScript         |         78 |          0 |          2 |         80 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Mission.js            | JavaScript         |         35 |          0 |          3 |         38 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Newsletter.js         | JavaScript         |         37 |          0 |          2 |         39 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Newsletter2.js        | JavaScript         |         37 |          0 |          3 |         40 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Parallax.js           | JavaScript         |         17 |          0 |          3 |         20 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Project.js            | JavaScript         |         77 |          0 |          3 |         80 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Project2.js           | JavaScript         |         97 |          0 |          3 |        100 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Project3.js           | JavaScript         |         89 |          0 |          3 |         92 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Project4.js           | JavaScript         |        105 |          0 |          2 |        107 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Project5.js           | JavaScript         |        201 |          0 |          3 |        204 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Roadmap.js            | JavaScript         |        140 |          2 |          8 |        150 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Services.js           | JavaScript         |         57 |          0 |          3 |         60 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Services2.js          | JavaScript         |         38 |          0 |          3 |         41 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Slider.js             | JavaScript         |         93 |          2 |          6 |        101 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Team.js               | JavaScript         |        121 |          0 |          3 |        124 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Testimonial.js        | JavaScript         |         52 |          0 |          2 |         54 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Testimonial2.js       | JavaScript         |         52 |          0 |          2 |         54 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Video.js              | JavaScript         |         18 |          0 |          3 |         21 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Video2.js             | JavaScript         |         18 |          0 |          3 |         21 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/components/sections/Vision.js             | JavaScript         |         27 |          0 |          2 |         29 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/jsconfig.json                             | JSON with Comments |          4 |          4 |          0 |          8 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/next.config.js                            | JavaScript         |          4 |          1 |          2 |          7 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/package-lock.json                         | JSON               |      4,778 |          0 |          1 |      4,779 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/package.json                              | JSON               |         30 |          0 |          0 |         30 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/404.js                              | JavaScript         |         38 |          0 |          1 |         39 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/_app.js                             | JavaScript         |         32 |          0 |          7 |         39 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/_document.js                        | JavaScript         |         15 |          0 |          2 |         17 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/blog-details.js                     | JavaScript         |        267 |          0 |          3 |        270 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/blog-list.js                        | JavaScript         |        177 |          0 |          4 |        181 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/blog-sidebar.js                     | JavaScript         |        104 |          0 |          3 |        107 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/blog.js                             | JavaScript         |         44 |          0 |          4 |         48 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/blog/[id].js                        | JavaScript         |        280 |          0 |         11 |        291 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/contact.js                          | JavaScript         |        116 |          0 |          5 |        121 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/faq.js                              | JavaScript         |        133 |          0 |          4 |        137 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/index-2.js                          | JavaScript         |         27 |          0 |          1 |         28 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/index-3.js                          | JavaScript         |         27 |          0 |          1 |         28 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/index-4.js                          | JavaScript         |         34 |          0 |          1 |         35 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/index-5.js                          | JavaScript         |         33 |          0 |          1 |         34 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/index-7.js                          | JavaScript         |         31 |          0 |          1 |         32 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/index-8.js                          | JavaScript         |         11 |          0 |          1 |         12 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/index.js                            | JavaScript         |         73 |          0 |          2 |         75 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/mission.js                          | JavaScript         |        218 |          0 |          4 |        222 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/overview.js                         | JavaScript         |        388 |          2 |         10 |        400 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/project-three.js                    | JavaScript         |         31 |          0 |          3 |         34 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/project-two.js                      | JavaScript         |         30 |          0 |          5 |         35 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/project.js                          | JavaScript         |         75 |          4 |         21 |        100 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/project/[id].js                     | JavaScript         |        355 |          9 |         19 |        383 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/sirvices.js                         | JavaScript         |        205 |          0 |          4 |        209 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/team-details.js                     | JavaScript         |        163 |          0 |          4 |        167 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/team.js                             | JavaScript         |         77 |          0 |          4 |         81 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/team/[id].js                        | JavaScript         |        177 |          0 |         14 |        191 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/pages/testimonial.js                      | JavaScript         |        122 |          0 |          4 |        126 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/css/animate.min.css         | CSS                |      2,705 |         16 |        456 |      3,177 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/css/bootstrap.min.css       | CSS                |          2 |          5 |          0 |          7 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/css/flaticon.css            | CSS                |         73 |          0 |          4 |         77 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/css/fontawesome-all.min.css | CSS                |          1 |          4 |          0 |          5 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/css/magnific-popup.css      | CSS                |        310 |          6 |         36 |        352 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/css/odometer.css            | CSS                |         89 |          0 |          0 |         89 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/css/responsive.css          | CSS                |      1,394 |          6 |         25 |      1,425 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/css/slick.css               | CSS                |        104 |          1 |         15 |        120 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/css/spacing.css             | CSS                |         75 |          8 |         10 |         93 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/css/style.css               | CSS                |      3,889 |        165 |        736 |      4,790 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/css/swiper-bundle.min.css   | CSS                |          1 |         11 |          1 |         13 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/fonts/fa-brands-400.svg     | XML                |      3,717 |          0 |          1 |      3,718 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/fonts/fa-regular-400.svg    | XML                |        801 |          0 |          1 |        802 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/fonts/fa-solid-900.svg      | XML                |      5,034 |          0 |          1 |      5,035 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/fonts/flaticon_reland.scss  | SCSS               |         93 |          0 |          5 |         98 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/fonts/flaticon_reland.svg   | XML                |         66 |          0 |          1 |         67 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/img/banner/mask_bg.svg      | XML                |          3 |          0 |          1 |          4 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/assets/img/banner/shape.svg        | XML                |          3 |          0 |          1 |          4 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/public/vercel.svg                         | XML                |          4 |          0 |          0 |          4 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/util/blog.json                            | JSON               |         42 |          0 |          0 |         42 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/util/project.json                         | JSON               |         98 |          0 |          0 |         98 |
+| /Users/macbookpro/Desktop/Reland-nextjs-v1.0.0-unzip-first/1.Reland-Nextjs/util/team.json                            | JSON               |         74 |          0 |          0 |         74 |
+| Total                                                                                                                |                    |     30,417 |        264 |      1,678 |     32,359 |
++----------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
