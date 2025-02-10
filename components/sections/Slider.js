@@ -41,13 +41,13 @@ export default function Slider() {
               <div className="row justify-content-center">
                 <div className="col-xl-8">
                   <div className="banner-content text-center">
-                    <h2
+                    <h3
                       className="title"
                       data-animation="fadeInUp"
                       data-delay=".6s"
                     >
                       Сантехникийн
-                    </h2>
+                    </h3>
                     <p data-animation="fadeInUp" data-delay=".6s">
                       Зөвшөн компани нь ажиллаж буй төсөл бүрдээ хүнээ
                       дээдэлсэн, гэр бүл, хувь хүнд тав тухтай амьдралын хэв
