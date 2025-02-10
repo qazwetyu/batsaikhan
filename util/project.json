@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Буянт Од хотхон",
+    "img": "project_img01.jpg",
+    "status": "Баригдаж байгаа",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  },
+  {
+    "id": 2,
+    "title": "МЯНГАНЫ ТӨГӨЛ ЦОГЦОЛБОР",
+    "img": "project_img02.jpg",
+    "status": "Баригдаж байгаа",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  },
+  {
+    "id": 3,
+    "title": "СОДОН СТАНДАРТ ХОРООЛОЛ",
+    "img": "project_img03.jpg",
+    "status": "Баригдаж дууссан",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  },
+  {
+    "id": 4,
+    "title": "GS 13",
+    "img": "project_img04.jpg",
+    "status": "Баригдаж дууссан",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  },
+  {
+    "id": 5,
+    "title": "BRUNSWICK WEST WING",
+    "img": "project_img05.jpg",
+    "status": "Баригдаж дууссан",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  },
+  {
+    "id": 6,
+    "title": "ANDORRA SHOPPING CENTER",
+    "img": "project_img06.jpg",
+    "status": "Баригдаж байгаа",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  },
+  {
+    "id": 7,
+    "title": "GAITHERSBURG SQUARE",
+    "img": "project_img07.jpg",
+    "status": "Баригдаж дууссан",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  },
+  {
+    "id": 8,
+    "title": "HASTINGS RANCH PLAZA",
+    "img": "project_img08.jpg",
+    "status": "Баригдаж байгаа",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  },
+  {
+    "id": 9,
+    "title": "THIRD STREET PROMENADE",
+    "img": "project_img09.jpg",
+    "status": "Баригдаж дууссан",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  },
+  {
+    "id": 10,
+    "title": "CAMELBACK COLONNADE",
+    "img": "project_img10.jpg",
+    "status": "Баригдаж дууссан",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  },
+  {
+    "id": 11,
+    "title": "BELL GARDENS MARKETPLACE",
+    "img": "project_img11.jpg",
+    "status": "Баригдаж дууссан",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  },
+  {
+    "id": 12,
+    "title": "CONGRESSIONAL PLAZA",
+    "img": "project_img12.jpg",
+    "status": "Баригдаж дууссан",
+    "type": "Орон сууц",
+    "location": "Улаанбаатар"
+  }
+]

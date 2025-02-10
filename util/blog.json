@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Барилгын материалын үнэ ханшийн мэдээлэл 2023 оны 7-р сар",
+    "img": "bl_blog_img01.jpg",
+    "authorTitle": "Жаргал",
+    "author": "author.jpg",
+    "date": "25 7 сар 2023"
+  },
+  {
+    "id": 2,
+    "title": "Шинэ орон сууцны үнэ ханшийн мэдээлэл 2023 оны 7-р сар ",
+    "img": "bl_blog_img02.jpg",
+    "authorTitle": "Joseph",
+    "author": "author.jpg",
+    "date": "25 7 сар 2023"
+  }
+]
