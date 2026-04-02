@@ -4,6 +4,8 @@ import About from "@/components/sections/About";
 import Project from "@/components/sections/Project";
 import Services from "@/components/sections/Services";
 import Slider from "@/components/sections/Slider";
+import Features from "@/components/sections/Features";
+import Brand from "@/components/sections/Brand";
 
 const CounterUp = dynamic(() => import("@/components/elements/CounterUp"), {
   ssr: false,
@@ -59,7 +61,21 @@ export default function Home1() {
           </div>
         </div>
       </div>
+      <Features />
       <Project />
+      <div className="section-pt-140 section-pb-110">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12">
+              <div className="section-title text-center mb-50">
+                <span className="sub-title">Хамтын ажиллагаа</span>
+                <h2 className="title">Харилцагч байгууллагууд</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Brand />
+      </div>
     </Layout>
   );
 }

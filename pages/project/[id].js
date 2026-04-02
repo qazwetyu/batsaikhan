@@ -22,6 +22,16 @@ const projectDetails = {
       "Аюулгүй, чанартай усны болон дулааны систем",
       "Ойр орчны үйлчилгээ, сургууль, цэцэрлэгтой гарцтай байршил",
     ],
+    performedWorks: [
+      "Дотор халаалт, цэвэр, бохир усны шугамын иж бүрэн угсралт",
+      "Дулааны зангилаа, насосны өрөөний тоноглол угсралт",
+      "Ариутгах татуургын системийн холболт",
+      "Сантехникийн тоноглол, хэрэгслийн суурилуулалт",
+    ],
+    sitePhotos: [
+      "/assets/img/project/project_img12.jpg",
+      "/assets/img/project/h2_project_img02.jpg",
+    ],
     note: "Нэмэлт танилцуулгыг доорх зар мэдээнээс үзэж болно.",
     sources: [{ label: "Barilga.mn — Буянт Од хотхон", url: "http://www.barilga.mn/a/324/" }],
   },
@@ -42,6 +52,16 @@ const projectDetails = {
       "Гол, уул мод, Богд хан уулын энгэр — байгаль дундах байршил",
       "Дулаан, ус, дэд бүтцийн асуудлыг бүрэн шийдсэн",
       "Гэр бүл, жуулчдад зориулсан амтат амралтын орчин",
+    ],
+    performedWorks: [
+      "Амралтын газрын цэвэр, бохир усны гадна шугам сүлжээ",
+      "Дулаан хангамжийн бие даасан систем суурилуулалт",
+      "Гүний худгийн насос, усан хангамжийн тоноглол",
+      "Бохир ус цэвэрлэх байгууламжийн холболт",
+    ],
+    sitePhotos: [
+      "/assets/img/project/project_img12.jpg",
+      "/assets/img/project/h2_project_img02.jpg",
     ],
     valuesBlock: [
       {
@@ -89,6 +109,16 @@ const projectDetails = {
       "Сургууль, спорт, кофе, ресторан, эмийн сан, банк гэх мэт цогц үйлчилгээ",
       "Ипотекийн зээл, урьдчилгаа, барьцааны уян хатан нөхцөл санал болгож байсан (дэлгэрэнгүйг эх сурвалжаас)",
     ],
+    performedWorks: [
+      "Блокын доторх цэвэр, бохир усны босоо болон хэвтээ шугам",
+      "Дулаан хангамжийн магистраль шугам, дулааны зангилаа",
+      "Галын аюулгүй байдлын усан хангамжийн систем",
+      "Үйлчилгээний талбайн сантехникийн тусгай шийдэл",
+    ],
+    sitePhotos: [
+      "/assets/img/project/project_img12.jpg",
+      "/assets/img/project/h2_project_img02.jpg",
+    ],
     note: "Дэлгэрэнгүй ярилцлага, тоо баримтыг доорх Barilga.mn-ийн нийтлэлээс уншиж болно.",
     sources: [
       {
@@ -118,6 +148,16 @@ const projectDetails = {
       "В1, В2 — автомашины зогсоол, 1-р давхар — үйлчилгээний талбай",
       "Германы стандарт материал, тоноглолыг ашигласан гэж танилцуулсан",
       "Орчин үеийн интерьер, аюулгүй амьдрах нөхцөлд төвлөрсөн",
+    ],
+    performedWorks: [
+      "Барилгын доторх халаалт, сантехникийн иж бүрэн угсралт",
+      "Герман стандартын дагуух чанарын хяналттай суурилуулалт",
+      "Зогсоолын давхрын ус зайлуулах систем",
+      "Шугам сүлжээний автоматжуулалт, тохируулга",
+    ],
+    sitePhotos: [
+      "/assets/img/project/project_img12.jpg",
+      "/assets/img/project/h2_project_img02.jpg",
     ],
     note: "Илүү нарийн тодорхойлолтыг доорх News.mn-ийн нийтлэлээс уншиж болно.",
     sources: [{ label: "News.mn — GS 13 орон сууцны танилцуулга", url: "https://news.mn/r/111005/" }],
@@ -298,6 +338,36 @@ export default function ProjectDetailsPage() {
               ))}
             </div>
           </div>
+
+          {(detail?.performedWorks?.length > 0) && (
+            <div className="project-section-block">
+              <h4>Яг юу хийсэн бэ? (Scope of Work)</h4>
+              <ul className="performed-works-list">
+                {detail.performedWorks.map((work, index) => (
+                  <li key={index}>
+                    <i className="fas fa-wrench" /> {work}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {(detail?.sitePhotos?.length > 0) && (
+            <div className="project-section-block">
+              <h4>Талбайн зургууд</h4>
+              <div className="row g-3 mt-2">
+                {detail.sitePhotos.map((photo, index) => (
+                  <div className="col-md-6" key={index}>
+                    <img
+                      src={photo}
+                      alt={`Талбайн зураг ${index + 1}`}
+                      className="img-fluid rounded"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           <div className="project-section-block">
             <h4>Тайлбар</h4>
@@ -490,6 +560,23 @@ export default function ProjectDetailsPage() {
         }
         .source-list :global(a:hover) {
           color: var(--tg-secondary-color);
+        }
+        .performed-works-list {
+          list-style: none;
+          padding: 0;
+          margin: 15px 0 0 0;
+        }
+        .performed-works-list li {
+          margin-bottom: 12px;
+          display: flex;
+          align-items: flex-start;
+          gap: 12px;
+          font-size: 1.05rem;
+          color: var(--tg-paragraph-color);
+        }
+        .performed-works-list li i {
+          color: var(--tg-primary-color);
+          margin-top: 4px;
         }
       `}</style>
     </Layout>
