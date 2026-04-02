@@ -15,14 +15,14 @@ export default function About() {
               </div>
               <div className="about-content text-center">
                 <p>
-                  "ЗӨВ ШАН" ХХК нь 2009 онд барилгын засвар, засал чимэглэл,
+                  "ЗӨВШАН" ХХК нь 2009 онд барилгын засвар, засал чимэглэл,
                   гадаад худалдаа, газар тариалан, аялал жуулчлалын чиглэлээр
                   анх байгуулагдаж байсан бол одоо барилга засвар, сантехникийн
                   угсралт болон усан халаалтын тогоо угсрах, гадна цэвэр бохир
                   ус, гадна дулааны шугам, дотор сантехникийн угсралт, засвар,
                   салхивч агаар сэлгэлт угсралтын ажил эрхэлдэг.
                 </p>
-                <Link href="contact" className="btn transparent-btn">
+                <Link href="/contact" className="btn transparent-btn">
                   <div className="btn_m">
                     <div className="btn_c">
                       <div className="btn_t1">Холбогдох</div>

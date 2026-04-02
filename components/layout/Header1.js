@@ -38,11 +38,16 @@ export default function Header1({ handleMobileMenu, scroll }) {
                         </div>
                         <div className="navbar-wrap main-menu d-none d-lg-flex">
                           <ul className="navigation">
-                            <li className="active menu-item-has-children"></li>
-                            <li className="menu-item-has-children">
+                            <li>
+                              <Link href="/">Нүүр</Link>
+                            </li>
+                            <li>
                               <Link href="/overview">Бидний тухай</Link>
                             </li>
-                            <li className="menu-item-has-children">
+                            <li>
+                              <Link href="/services">Үйлчилгээ</Link>
+                            </li>
+                            <li>
                               <Link href="/project">Төслүүд</Link>
                             </li>
                           </ul>
@@ -60,10 +65,6 @@ export default function Header1({ handleMobileMenu, scroll }) {
                             </Link>
                           </div>
                           <ul className="navigation right">
-                            <li className="menu-item-has-children">
-                              <Link href="/blog">Блог</Link>
-                            </li>
-
                             <li>
                               <Link href="/contact">Холбогдох</Link>
                             </li>
@@ -72,7 +73,7 @@ export default function Header1({ handleMobileMenu, scroll }) {
                       </div>
                       <div className="col-xl-2">
                         <div className="header-contact text-end">
-                          <Link href="/tel:+97699070200">+976 9907-0200</Link>
+                          <Link href="tel:+97699070200">+976 9907-0200</Link>
                         </div>
                       </div>
                     </div>

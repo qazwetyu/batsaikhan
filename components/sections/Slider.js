@@ -7,19 +7,14 @@ const swiperOptions = {
   slidesPerView: 1,
   spaceBetween: 0,
   autoplay: {
-    delay: 2500,
+    delay: 3500,
     disableOnInteraction: false,
   },
   loop: true,
-
-  // Navigation
   navigation: {
     nextEl: ".h1n",
     prevEl: ".h1p",
   },
-
-    
-  // Pagination
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -34,55 +29,23 @@ export default function Slider() {
           <SwiperSlide
             className="single-slider slider-bg"
             style={{
-              backgroundImage: `url("/assets/img/banner/banner_img01.jpg")`,
-              backgroundPosition: 'center',
-              backgroundSize: 'cover',
-              minHeight: '100vh'
+              backgroundImage: 'url("/assets/img/banner/banner_img01.jpg")',
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              minHeight: "100vh",
             }}
           >
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-xl-8 col-lg-10 col-md-12">
                   <div className="banner-content text-center">
-                    <h3
-                      className="title"
-                      data-animation="fadeInUp"
-                      data-delay=".6s"
-                      style={{
-                        '@media (max-width: 768px)': {
-                          fontSize: '24px',
-                          lineHeight: '1.3',
-                          marginBottom: '15px'
-                        },
-                        '@media (max-width: 480px)': {
-                          fontSize: '20px',
-                          marginBottom: '10px',
-                          padding: '0 10px'
-                        }
-                      }}
-                    >
-                      Сантехникийн
-                    </h3>
-                    <p 
-                      data-animation="fadeInUp" 
-                      data-delay=".6s"
-                      style={{
-                        '@media (max-width: 768px)': {
-                          fontSize: '16px',
-                          lineHeight: '1.5',
-                          padding: '0 20px',
-                          marginBottom: '20px'
-                        },
-                        '@media (max-width: 480px)': {
-                          fontSize: '14px',
-                          padding: '0 15px',
-                          marginBottom: '15px'
-                        }
-                      }}
-                    >
-                      Зөвшөн компани нь ажиллаж буй төсөл бүрдээ хүнээ
-                      дээдэлсэн, гэр бүл, хувь хүнд тав тухтай амьдралын хэв
-                      маягийг бүрдүүлэн,
+                    <h2 className="title" data-animation="fadeInUp" data-delay=".4s">
+                      Инженерийн найдвартай шийдэл
+                    </h2>
+                    <p data-animation="fadeInUp" data-delay=".6s">
+                      ЗӨВШАН ХХК нь орон сууц, барилга байгууламжийн сантехник,
+                      шугам сүлжээний угсралт, засвар үйлчилгээг чанарын өндөр
+                      түвшинд гүйцэтгэнэ.
                     </p>
                   </div>
                 </div>
@@ -92,56 +55,23 @@ export default function Slider() {
           <SwiperSlide
             className="single-slider slider-bg"
             style={{
-              backgroundImage: `url("assets/img/banner/banner_right_img02.jpg")`,
-              backgroundPosition: 'center',
-              backgroundSize: 'cover',
-              minHeight: '100vh'
+              backgroundImage: 'url("/assets/img/banner/banner_right_img02.jpg")',
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              minHeight: "100vh",
             }}
           >
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-xl-8 col-lg-10 col-md-12">
                   <div className="banner-content text-center">
-                    <h2
-                      className="title"
-                      data-animation="fadeInUp"
-                      data-delay=".2s"
-                      style={{
-                        '@media (max-width: 768px)': {
-                          fontSize: '24px',
-                          lineHeight: '1.3',
-                          marginBottom: '15px'
-                        },
-                        '@media (max-width: 480px)': {
-                          fontSize: '20px',
-                          marginBottom: '10px',
-                          padding: '0 10px'
-                        }
-                      }}
-                    >
-                      Шийдэл
+                    <h2 className="title" data-animation="fadeInUp" data-delay=".4s">
+                      Аюулгүй ажиллагаа, хугацааны сахилга бат
                     </h2>
-                    <p 
-                      data-animation="fadeInUp" 
-                      data-delay=".6s"
-                      style={{
-                        '@media (max-width: 768px)': {
-                          fontSize: '16px',
-                          lineHeight: '1.5',
-                          padding: '0 20px',
-                          marginBottom: '20px'
-                        },
-                        '@media (max-width: 480px)': {
-                          fontSize: '14px',
-                          padding: '0 15px',
-                          marginBottom: '15px'
-                        }
-                      }}
-                    >
-                      амьдралд үнэ цэн нэмэгдүүлэхийг эрхэмлэж, оршин суугчдын
-                      тав тухын хэрэгцээ шаардлагыг бүрэн хангасан, эдийн
-                      засгийн үр өгөөж бүхий төлөвлөлттэй шийдэл амжилттай
-                      хэрэгжүүлдгээрээ давуу талтай.
+                    <p data-animation="fadeInUp" data-delay=".6s">
+                      Төсөл бүрийг төлөвлөлтөөс хүлээлгэн өгөх хүртэл хяналттай
+                      удирдаж, захиалагчийн хэрэгцээнд нийцсэн бодит үнэ цэнтэй
+                      үр дүнг бий болгодог.
                     </p>
                   </div>
                 </div>
@@ -151,14 +81,7 @@ export default function Slider() {
         </Swiper>
       </section>
 
-      <div 
-        className="banner-scroll-down"
-        style={{
-          '@media (max-width: 768px)': {
-            bottom: '20px'
-          }
-        }}
-      >
+      <div className="banner-scroll-down">
         <Link href="#about" className="section-link">
           <span />
           <span />

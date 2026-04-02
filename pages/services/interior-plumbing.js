@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Layout from "@/components/layout/Layout";
 
-export default function Overview() {
+export default function InteriorPlumbingPage() {
   return (
     <Layout headerStyle={6}>
       <section className="breadcrumb-area">
@@ -9,14 +9,17 @@ export default function Overview() {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcrumb-content">
-                <h2 className="title">Бидний тухай</h2>
+                <h2 className="title">Дотор сантехникийн угсралт</h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
                       <Link href="/">Нүүр</Link>
                     </li>
+                    <li className="breadcrumb-item">
+                      <Link href="/services">Үйлчилгээ</Link>
+                    </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      Бидний тухай
+                      Дотор сантехникийн угсралт
                     </li>
                   </ol>
                 </nav>
@@ -31,25 +34,23 @@ export default function Overview() {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-img text-center">
-                <img src="/assets/img/images/about_img.jpg" alt="Компанийн танилцуулга" />
+                <img src="/assets/img/images/services_01.png" alt="Дотор сантехникийн угсралт" />
               </div>
             </div>
             <div className="col-lg-6">
               <div className="about-content">
-                <div className="section-title mb-40">
-                  <span className="sub-title">ЗӨВШАН ХХК</span>
-                  <h2 className="title">Сантехник, шугам сүлжээний найдвартай түнш</h2>
+                <div className="section-title mb-35">
+                  <span className="sub-title">Үйлчилгээ</span>
+                  <h2 className="title">Дотор сантехникийн угсралт</h2>
                 </div>
                 <p>
-                  Манай компани барилгын дотор болон гадна сантехникийн угсралт,
-                  шугам сүлжээний ажил, засвар үйлчилгээний чиглэлээр олон жилийн
-                  туршлагатай. Төсөл бүр дээр чанар, аюулгүй ажиллагаа, хугацааны
-                  сахилга батыг нэн тэргүүнд баримталдаг.
+                  Барилгын дотор шугам сүлжээ, тоноглолын суурилуулалт, шалгалт
+                  тохируулгыг стандартын дагуу гүйцэтгэнэ.
                 </p>
                 <p>
-                  Бид захиалагчийн хэрэгцээнд нийцсэн инженерийн шийдлийг санал
-                  болгож, зураг төсөл боловсруулах үе шатнаас хүлээлгэн өгөх хүртэл
-                  мэргэжлийн баг хамт олноороо бүрэн дэмжлэг үзүүлдэг.
+                  Манай баг зураг төслийн шаардлагад нийцүүлэн халаалт, цэвэр болон
+                  бохир усны системийн угсралтыг чанартай хийж, ашиглалтын аюулгүй
+                  байдлыг бүрэн хангана.
                 </p>
                 <Link href="/contact" className="btn transparent-btn">
                   <div className="btn_m">

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Layout from "@/components/layout/Layout";
-import ProjectFilter from "@/components/elements/ProjectFilter";
+import Services from "@/components/sections/Services";
 
-export default function ProjectPage() {
+export default function ServicePage() {
   return (
     <Layout headerStyle={6}>
       <section className="breadcrumb-area">
@@ -10,14 +10,14 @@ export default function ProjectPage() {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcrumb-content">
-                <h2 className="title">Төслүүд</h2>
+                <h2 className="title">Үйлчилгээ</h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
                       <Link href="/">Нүүр</Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      Төслүүд
+                      Үйлчилгээ
                     </li>
                   </ol>
                 </nav>
@@ -27,7 +27,7 @@ export default function ProjectPage() {
         </div>
       </section>
 
-      <ProjectFilter col="col-lg-6 col-md-6" />
+      <Services />
     </Layout>
   );
 }

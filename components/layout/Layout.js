@@ -32,13 +32,13 @@ export default function Layout({ headerStyle, headTitle, breadcrumbTitle, childr
     // Scroll Header
     const [scroll, setScroll] = useState(0)
     useEffect(() => {
-        document.addEventListener("scroll", () => {
+        const onScroll = () => {
             const scrollCheck = window.scrollY > 100
-            if (scrollCheck !== scroll) {
-                setScroll(scrollCheck)
-            }
-        })
-    })
+            setScroll(scrollCheck)
+        }
+        document.addEventListener("scroll", onScroll)
+        return () => document.removeEventListener("scroll", onScroll)
+    }, [])
     return (
         <>
             <PageHead headTitle={headTitle} />
